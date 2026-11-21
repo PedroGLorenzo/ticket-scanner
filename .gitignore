@@ -1,0 +1,24 @@
+ # Python
+  __pycache__/
+  *.py[cod]
+  .pytest_cache/
+  .ruff_cache/
+
+  # Entorno virtual
+  .venv/
+  venv/
+
+  # Notebooks
+  .ipynb_checkpoints/
+
+  # Datos (se mantienen las carpetas, no las imágenes)
+  data/raw/*
+  data/processed/*
+  !data/raw/.gitkeep
+  !data/processed/.gitkeep
+
+  # Sistema / editores
+  .DS_Store
+  Thumbs.db
+  .vscode/
+  .idea/
